@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\SolicitudEnvio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:SolicitudEnvio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\SistemaTicoPack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:SistemaTicoPack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\CentroDistribucion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:CentroDistribucion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\ListaEnlazada2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:ListaEnlazada2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\ListaEnlazada2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:ListaEnlazada2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\bodega.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{763F22F5-48C1-429B-80EB-86556BEFEDF6}|proyecto2.vcxproj|solutionrelative:bodega.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,89 +22,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ListaEnlazada2.cpp",
-              "DocumentMoniker": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\ListaEnlazada2.cpp",
-              "RelativeDocumentMoniker": "ListaEnlazada2.cpp",
-              "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\ListaEnlazada2.cpp",
-              "RelativeToolTip": "ListaEnlazada2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-02T03:17:29.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListaEnlazada2.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\ListaEnlazada2.h",
-              "RelativeDocumentMoniker": "ListaEnlazada2.h",
-              "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\ListaEnlazada2.h",
-              "RelativeToolTip": "ListaEnlazada2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-02T03:17:29.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CentroDistribucion.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\CentroDistribucion.h",
-              "RelativeDocumentMoniker": "CentroDistribucion.h",
-              "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\CentroDistribucion.h",
-              "RelativeToolTip": "CentroDistribucion.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-02T03:17:25.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SistemaTicoPack.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\SistemaTicoPack.h",
-              "RelativeDocumentMoniker": "SistemaTicoPack.h",
-              "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\SistemaTicoPack.h",
-              "RelativeToolTip": "SistemaTicoPack.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-02T03:17:02.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SolicitudEnvio.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\SolicitudEnvio.h",
-              "RelativeDocumentMoniker": "SolicitudEnvio.h",
-              "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\SolicitudEnvio.h",
-              "RelativeToolTip": "SolicitudEnvio.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-02T03:13:57.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "bodega.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\bodega.h",
-              "RelativeDocumentMoniker": "bodega.h",
-              "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\bodega.h",
-              "RelativeToolTip": "bodega.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-02T03:13:50.437Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,7 +32,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\XPC\\Documents\\GitHub\\proyecto2\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-02T02:47:16.14Z",
               "EditorCaption": ""
