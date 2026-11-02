@@ -2,38 +2,32 @@
 #include <iostream>
 #include <string>
 #include "Paquete.h"
-#include "Paquete.cpp"
-
 
 using namespace std;
-class paquete;
-//so debo declarar la clase antes de usarla adelante ¡?=???=???makako confundido 
-class celda {
+
+class Celda {
 private:
-	string CodigoBodega;
-	int Fila;
-	int Columna;
-	bool Ocupada;
-	paquete* Paquete;
-	//creo tengo conflictos con el nombre por eso esa madre 
+    string codigoBodega;
+    int fila;
+    int columna;
+    bool ocupada;
+    Paquete* paquete;
+
 public:
-	//metodos contructores y destructores 
-	celda();
-	celda(string CodigoBodega, int  Fila, int Columna, bool ocupada, paquete* Paquete);
-~celda();
 
 
-//me cago en la puta cuantos errores mas voy a cometer hasta que chambee
-bool estaOcupada() ;
-void asignarPaquete(paquete* Paquete );
-void liberar();
-//metodos get
-string getCodigoBodega();
-int getFila();
-int getColumna();
-paquete* getPaquete();
-string getUbicacion();
+    Celda();
+    Celda(string codigoBodega, int fila, int columna); 
+    Celda(string codigoBodega, int fila, int columna, bool ocupada, Paquete* paquete);
+    ~Celda();
 
+    bool estaOcupada() const;
+    void asignarPaquete(Paquete* paquete);
+    void liberar();
+
+    string getCodigoBodega() const;
+    int getFila() const;
+    int getColumna() const;
+    Paquete* getPaquete(); 
+    string getUbicacion() const;
 };
-
-//creo ya quedo vamos con el cpp creo 

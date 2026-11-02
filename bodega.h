@@ -1,36 +1,33 @@
 #pragma once
-#include "matrizBodega.h"
 #include <iostream>
 #include <string>
-//maldito copilador que buenos pedos me saca 
+#include "MatrizBodega.h" 
 
 using namespace std;
-class MatrizBodega;
-class bodega
-{
-public:
-	string codigo;
-	string nombre;
-	int tipoCodigo;
-	string tipoNombre;
-	MatrizBodega* matriz;
+
+class Bodega {
+private:
+    string codigo;
+    string nombre;
+    int tipoCodigo;
+    string tipoNombre;
+    MatrizBodega* matriz;
 
 public:
-	//constructores
-	bodega();
-	bodega(string, string, int, int, int);
-	~bodega();
-	//metodos get
-	string getCodigo();
-	string getNombre();
-	int getTipoCodigo();
-	string getTipoNombre();
-	MatrizBodega* getMatriz();
-	//metodos set
-	void setCodigo(string);
-	void setNombre(string);
-	void setTipoCodigo(int);
-	void setTipoNombre(string);
+
+    Bodega();
+    Bodega(string codigo, string nombre, int tipoCodigo, int fila, int columna);
+    ~Bodega();
+
+    string getCodigo() const;
+    string getNombre() const;
+    int getTipoCodigo() const;
+    string getTipoNombre() const;
+    MatrizBodega* getMatriz(); 
+
+    // Métodos Set
+    void setCodigo(string codigo);
+    void setNombre(string nombre);
+    void setTipoCodigo(int tipoCodigo);
+    void setTipoNombre(string tipoNombre);
 };
-//creo aca falta gente pero si no me acuerdo no paso cantala con migo 
-//esa mamada de las mayusculas me tiene mamado 

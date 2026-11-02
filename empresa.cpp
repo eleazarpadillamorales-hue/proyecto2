@@ -1,32 +1,38 @@
-#include "empresa.h"
+#include "Empresa.h"
 
-	//metodos contructores y destructores
-empresa::empresa() { 
-	 activiaEconomica = "Nombre";
-	 porcentajeDescuento = 0;}
+//metodos contructores y destructores
+Empresa::Empresa() : Cliente() {
+    actividadEconomica = "Sin actividad";
+    porcentajeDescuento = 0.0;
+}
 
-//Contexto no enteni el erro de linea 10 segun Dice no lo inicialize 
-// pero segun mi santa ignorancia si lo hice so ???
-empresa::empresa(string activiaEconomica, double porcentajeDescuento) {
-	this->activiaEconomica = activiaEconomica;
-	this->porcentajeDescuento = porcentajeDescuento; }
+Empresa::Empresa(string identificacion, string nombre, string telefono, string correo, string actividadEconomica, double porcentajeDescuento)
+    : Cliente(identificacion, nombre, telefono, correo) {
+    this->actividadEconomica = actividadEconomica;
+    this->porcentajeDescuento = porcentajeDescuento;
+}
 
-empresa::~empresa() { ; }
+Empresa::~Empresa() {
+}
+
 //metodos gets y sets
-string empresa::getActividadEconomica() { return activiaEconomica; }
-double empresa::getporcentajeDescuento() { return porcentajeDescuento; }
+string Empresa::getActividadEconomica() const { return actividadEconomica; }
+double Empresa::getPorcentajeDescuento() const { return porcentajeDescuento; }
 
-void empresa::setActividadEconomica(string activiaEconomica) 
-{ this->activiaEconomica = activiaEconomica; }
-void empresa::setporcentajeDescuento(double porcentajeDescuento) 
-{ this->porcentajeDescuento = porcentajeDescuento; }
-//metodos adicionales 
-void empresa::toString() {
+void Empresa::setActividadEconomica(string actividadEconomica) {
+    this->actividadEconomica = actividadEconomica;
+}
 
-	cout << "El nombre de la empresa es: " << getNombre() << endl;
-	cout << "El numero del identificacion es: " << getIdentificacion() << endl;
-	cout << "El  telefono es: " << getTelefono() << endl;
-	cout << "El Correo es: " << getCorreo() << endl;
-	cout << "La activida economica es: " << getActividadEconomica() << endl;
-	cout << "El Porcentaje de descuento es: " << getPorcentajeDescuento() << endl;
-;}
+void Empresa::setPorcentajeDescuento(double porcentajeDescuento) {
+    this->porcentajeDescuento = porcentajeDescuento;
+}
+
+string Empresa::toString() const {
+    return "Empresa: " + getNombre() + " | ID: " + getIdentificacion() +
+        " | Tel: " + getTelefono() + " | Correo: " + getCorreo() +
+        " | Actividad Económica: " + actividadEconomica +
+        " | Descuento: " + to_string(porcentajeDescuento) + "%";
+}
+
+//Contexto no enteni el erro  segun Dice no lo inicialize 
+// pero segun mi santa ignorancia si lo hice so ???

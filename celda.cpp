@@ -1,39 +1,58 @@
-#include "celda.h"
-#include "paquete.h"
+#include "Celda.h"
 #include <string>
 
 using namespace std;
-celda::celda() {
 
+// Constructor por defecto
+Celda::Celda() {
+    codigoBodega = "";
+    fila = -1;
+    columna = -1;
+    ocupada = false;
+    paquete = nullptr;
+}
 
-	 CodigoBodega=" ";
-	 Fila = 0;
-	 Columna = 0;
-	 Ocupada = false;
-	Paquete = nullptr;
+Celda::Celda(string codigoBodega, int fila, int columna) {
+    this->codigoBodega = codigoBodega;
+    this->fila = fila;
+    this->columna = columna;
+    this->ocupada = false;
+    this->paquete = nullptr;
+}
+
+// Constructor con todos los parámetros
+Celda::Celda(string codigoBodega, int fila, int columna, bool ocupada, Paquete* paquete) {
+    this->codigoBodega = codigoBodega;
+    this->fila = fila;
+    this->columna = columna;
+    this->ocupada = ocupada;
+    this->paquete = paquete;
+}
+
+Celda::~Celda() {
 
 }
-	celda::celda(string CodigoBodega, int  Fila, int Columna, bool ocupada, paquete * Paquete) { 
 
-		this->CodigoBodega = CodigoBodega;
-		this->Fila = Fila;
-		this->Columna = Columna;
-		this->Ocupada = Ocupada;
-		this->Paquete = Paquete		; }
-	celda::~celda() { ; }
-	//me cago en la puta cuantos errores mas voy a cometer hasta que chambee
-	bool celda::estaOcupada() { return Ocupada; }
-	void celda::asignarPaquete(paquete * paquete) { Ocupada=true, Paquete=paquete; }
-	void celda::liberar() { Ocupada=false,Paquete=nullptr; }
-	//metodos get
-	string celda::getCodigoBodega() { return CodigoBodega; }
-	int celda::getFila() { return Fila; }
-	int celda::getColumna() { return Columna; }
-	paquete* celda::getPaquete() { return Paquete; }
-	string celda::getUbicacion() {
-		string retorno ="";
-			retorno== ("Bodega con codigo: "+ getCodigoBodega() + "en la fila : "+ to_string(getFila()) +"  en la columna : " + to_string(getColumna()))S;
+bool Celda::estaOcupada() const {
+    return ocupada;
+}
 
-		return retorno;
-	}
+void Celda::asignarPaquete(Paquete* paquete) {
+    this->ocupada = true;
+    this->paquete = paquete;
+}
 
+void Celda::liberar() {
+    this->ocupada = false;
+    this->paquete = nullptr;
+}
+
+string Celda::getCodigoBodega() const { return codigoBodega; }
+int Celda::getFila() const { return fila; }
+int Celda::getColumna() const { return columna; }
+Paquete* Celda::getPaquete() { return paquete; }
+
+string Celda::getUbicacion() const {
+    string retorno = "Bodega con codigo: " + codigoBodega + " en la fila: " + to_string(fila) + " en la columna: " + to_string(columna);
+    return retorno;
+}

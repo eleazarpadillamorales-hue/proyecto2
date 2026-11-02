@@ -1,25 +1,35 @@
-#include "cliente.h"
-cliente::cliente() {
+#include "Cliente.h"
+
+Cliente::Cliente() {
 	identificacion = "0000000";
 	nombre = "Nombre";
 	telefono = "0000000";
-	correo = "uncorreo";}
-cliente::cliente(string identificacion, string nombre, string telefono, string correo) {
+	correo = "uncorreo";
+}
+
+Cliente::Cliente(string identificacion, string nombre, string telefono, string correo) {
 	this->identificacion = identificacion;
 	this->nombre = nombre;
 	this->telefono = telefono;
-	this->correo = correo;}
-cliente::~cliente() { ; }
-//metodos get y sete
-string cliente::getIdentificacion()      { return identificacion; }
-string cliente::getNombre()				{ return nombre; }
-string cliente::getTelefono()			{ return telefono; }
-string cliente::getCorreo()				{ return correo; }
-//como nota segun yo era cliente::string get nombre pero me dio error so lo voltie
-void cliente::setIdentificacion(string identificacion)		{this->identificacion = identificacion;}
-void cliente::setNombre(string nombre)						{ this->nombre = nombre; }
-void cliente::setTelefono(string telefono)					{ this->telefono = telefono; }
-void cliente::setCorreo(string correo)						{ this->correo = correo; }
+	this->correo = correo;
+}
+
+Cliente::~Cliente() {
+}
+
+// Métodos Get
+string Cliente::getIdentificacion() const { return identificacion; }
+string Cliente::getNombre() const { return nombre; }
+string Cliente::getTelefono() const { return telefono; }
+string Cliente::getCorreo() const { return correo; }
+
+// Métodos Set
+void Cliente::setIdentificacion(string identificacion) { this->identificacion = identificacion; }
+void Cliente::setNombre(string nombre) { this->nombre = nombre; }
+void Cliente::setTelefono(string telefono) { this->telefono = telefono; }
+void Cliente::setCorreo(string correo) { this->correo = correo; }
+
+
 //metodos virtuales para que sea clase 
 // abstracta aca deberian ir pero no se ponene segun comprendo segun mi infinita ignorancia 
-//la cual parece mucha 
+//la cual parece mucha

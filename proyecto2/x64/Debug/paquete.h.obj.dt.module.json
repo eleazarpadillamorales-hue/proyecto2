@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "proyecto2\\x64\\Debug\\paquete.obj",
+            "outputs": [
+                "proyecto2\\x64\\Debug\\paquete.h.obj.dt.module.json",
+                "proyecto2\\x64\\Debug\\paquete.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

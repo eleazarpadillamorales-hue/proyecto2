@@ -1,24 +1,28 @@
-#include "nodoBitacora.h"
-#include "registroBitacora.h"
-//no tocar la siguietne linea no tengo ni idea de porque pero si no la pongo me da error de compilacion
-#include "registroBitacora.cpp"
+#include "NodoBitacora.h"
+#include "RegistroBitacora.h"
 
-nodoBitacora::nodoBitacora(registroBitacora* dato) {
-	this->dato = dato;
-	this->siguiente = nullptr;
+// Nota: Si te vuelve a dar error de enlace, recuerda asegurarte de que "RegistroBitacora.cpp" 
+// esté agregado a los archivos de tu proyecto en Visual Studio para poder quitar esta línea:
+// #include "RegistroBitacora.cpp"
+
+NodoBitacora::NodoBitacora(RegistroBitacora* dato) {
+    this->dato = dato;
+    this->siguiente = nullptr;
 }
-nodoBitacora::~nodoBitacora() {
-	if (this->dato != nullptr) {
-		   delete this->dato;
-		}
+
+NodoBitacora::~NodoBitacora() {
+    if (this->dato != nullptr) {
+        delete this->dato;
+    }
 }
 
 //netodos get y set 
-registroBitacora* nodoBitacora::getDato()                { return this->dato; }
-nodoBitacora* nodoBitacora::getSiguiente()               { return this->siguiente ; }
-void nodoBitacora::setDato(registroBitacora* dato)       { this->dato = dato; }
-void nodoBitacora::setSiguiente(nodoBitacora* siguiente) { this->siguiente = siguiente; ; }
+RegistroBitacora* NodoBitacora::getDato() const { return this->dato; }
+NodoBitacora* NodoBitacora::getSiguiente() const { return this->siguiente; }
+void NodoBitacora::setDato(RegistroBitacora* dato) { this->dato = dato; }
+void NodoBitacora::setSiguiente(NodoBitacora* siguiente) { this->siguiente = siguiente; }
+
 //como nota me cago en la puta maldito include por ese
 // desgraciado no me dejaba copilar estoy arto de tener errores de pendejo 
 // todo el maldito codigo bien a pero a mister sonrisas se le ocurre no poner un include 
-// saludos cordiales 
+// saludos cordiales

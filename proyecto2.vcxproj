@@ -141,33 +141,41 @@
   <ItemGroup>
     <ClInclude Include="bodega.h" />
     <ClInclude Include="celda.h" />
+    <ClInclude Include="CentroDistribucion.h" />
     <ClInclude Include="cliente.h" />
     <ClInclude Include="colaborador.h" />
     <ClInclude Include="Despacho.h" />
     <ClInclude Include="empresa.h" />
     <ClInclude Include="listaBitacora.h" />
+    <ClInclude Include="ListaEnlazada2.h" />
     <ClInclude Include="matrizBodega.h" />
+    <ClInclude Include="Nodo.h" />
     <ClInclude Include="nodoBitacora.h" />
     <ClInclude Include="paquete.h" />
     <ClInclude Include="personaFisica.h" />
     <ClInclude Include="registroBitacora.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SistemaTicoPack.h" />
     <ClInclude Include="SolicitudEnvio.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bodega.cpp" />
     <ClCompile Include="celda.cpp" />
+    <ClCompile Include="CentroDistribucion.cpp" />
     <ClCompile Include="cliente.cpp" />
     <ClCompile Include="colaborador.cpp" />
     <ClCompile Include="Despacho.cpp" />
     <ClCompile Include="empresa.cpp" />
     <ClCompile Include="listaBitacora.cpp" />
+    <ClCompile Include="ListaEnlazada2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="matrizBodega.cpp" />
+    <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="nodoBitacora.cpp" />
     <ClCompile Include="paquete.cpp" />
     <ClCompile Include="personaFisica.cpp" />
     <ClCompile Include="registroBitacora.cpp" />
+    <ClCompile Include="SistemaTicoPack.cpp" />
     <ClCompile Include="SolicitudEnvio.cpp" />
   </ItemGroup>
   <ItemGroup>

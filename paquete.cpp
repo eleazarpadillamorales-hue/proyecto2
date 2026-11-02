@@ -1,7 +1,9 @@
 #include "Paquete.h"
+#include "ListaBitacora.h"
 #include <iostream>
 
 using namespace std;
+
 Paquete::Paquete() {
     codigo = "";
     descripcion = "";
@@ -13,7 +15,7 @@ Paquete::Paquete() {
     bodegaAsignada = nullptr;
     filaAsignada = -1;
     columnaAsignada = -1;
-    bitacora = nullptr; 
+    bitacora = new ListaBitacora(); // Inicializamos la bitácora para que esté lista para registrar eventos[cite: 29]
 }
 
 Paquete::Paquete(string codigo, string descripcion, double peso, string categoria, Cliente* cliente, CentroDistribucion* centro) {
@@ -27,23 +29,28 @@ Paquete::Paquete(string codigo, string descripcion, double peso, string categori
     this->bodegaAsignada = nullptr;
     this->filaAsignada = -1;
     this->columnaAsignada = -1;
-    this->bitacora = nullptr;
+    this->bitacora = new ListaBitacora(); // Creamos su bitácora asociada al nacer[cite: 29]
 }
 
 Paquete::~Paquete() {
-
+    // Liberamos la memoria de la bitácora si fue creada dinámicamente[cite: 29]
+    if (bitacora != nullptr) {
+        delete bitacora;
+        bitacora = nullptr;
+    }
 }
 
-string Paquete::getCodigo() { return codigo; }
-string Paquete::getDescripcion() { return descripcion; }
-double Paquete::getPeso() { return peso; }
-string Paquete::getCategoria() { return categoria; }
-string Paquete::getEstadoActual() { return estadoActual; }
-Cliente* Paquete::getClientePropietario() { return clientePropietario; }
-CentroDistribucion* Paquete::getCentro() { return centroOrigen; }
-Bodega* Paquete::getBodegaAsignada() { return bodegaAsignada; }
-int Paquete::getFilaAsignada() { return filaAsignada; }
-int Paquete::getColumnaAsignada() { return columnaAsignada; }
+// --- Métodos Get (con const) ---
+string Paquete::getCodigo() const { return codigo; }
+string Paquete::getDescripcion() const { return descripcion; }
+double Paquete::getPeso() const { return peso; }
+string Paquete::getCategoria() const { return categoria; } // Corregido por si acaso faltaba return
+string Paquete::getEstadoActual() const { return estadoActual; }
+Cliente* Paquete::getClientePropietario() const { return clientePropietario; }
+CentroDistribucion* Paquete::getCentro() const { return centroOrigen; }
+Bodega* Paquete::getBodegaAsignada() const { return bodegaAsignada; }
+int Paquete::getFilaAsignada() const { return filaAsignada; }
+int Paquete::getColumnaAsignada() const { return columnaAsignada; }
 ListaBitacora* Paquete::getBitacora() { return bitacora; }
 
 // --- Métodos Set ---
@@ -74,8 +81,8 @@ void Paquete::liberarUbicacion() {
     this->estadoActual = "En tránsito / Retirado";
 }
 
-string Paquete::toString() {
+string Paquete::toString() const {
     return "Paquete: " + codigo + " | Descripcion: " + descripcion + " | Estado: " + estadoActual;
 }
 
-//puta si esto es la clase paquete que diablos¡¡?? me hace falta mejor no pregunto 
+//puta si esto es la clase paquete que diablos¡¡?? me hace falta mejor no pregunto[cite: 29]

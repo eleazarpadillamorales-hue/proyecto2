@@ -1,0 +1,366 @@
+﻿  CentroDistribucion.cpp
+C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7): error C2953: 'ListaEnlazada': ya se ha definido la plantilla de clase
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(23,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(24,32): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(25,27): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(26,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(27,35): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(28,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(51,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(52,33): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(53,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(54,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(55,36): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(56,30): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "CentroDistribucion.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(5,42): error C2512: 'ListaEnlazada': no hay disponible un constructor predeterminado adecuado
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(13,123): error C2512: 'ListaEnlazada': no hay disponible un constructor predeterminado adecuado
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(37,45): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(38,49): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(39,44): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(40,45): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(41,52): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.cpp(42,46): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+  main.cpp
+C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7): error C2953: 'ListaEnlazada': ya se ha definido la plantilla de clase
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(23,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(24,32): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(25,27): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(26,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(27,35): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(28,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(51,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(52,33): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(53,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(54,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(55,36): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(56,30): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\SistemaTicoPack.h(11,39): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\SistemaTicoPack.h(22,40): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "main.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+  Nodo.cpp
+C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(5,10): error C2995: 'Nodo<T>::Nodo(T *)': ya se ha definido la plantilla de función
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.h(14,5):
+      vea la declaración de 'Nodo<T>::Nodo'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(12,11): error C2995: 'Nodo<T>::~Nodo(void)': ya se ha definido la plantilla de función
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.h(20,6):
+      vea la declaración de 'Nodo<T>::~Nodo'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(18,13): error C2244: 'Nodo<T>::getDato': no se puede hacer coincidir la definición de función con una declaración existente
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(18,13):
+      vea la declaración de 'Nodo<T>::getDato'
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(18,13):
+      definición
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(18,13):
+      'T *Nodo<T>::getDato(void)'
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(18,13):
+      declaraciones existentes
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.h(26,8):
+      'T *Nodo<T>::getDato(void) const'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(23,15): error C2995: 'void Nodo<T>::setDato(T *)': ya se ha definido la plantilla de función
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.h(30,10):
+      vea la declaración de 'Nodo<T>::setDato'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(28,19): error C2244: 'Nodo<T>::getSiguiente': no se puede hacer coincidir la definición de función con una declaración existente
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(28,19):
+      vea la declaración de 'Nodo<T>::getSiguiente'
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(28,19):
+      definición
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(28,19):
+      'Nodo<T> *Nodo<T>::getSiguiente(void)'
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(28,19):
+      declaraciones existentes
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.h(34,14):
+      'Nodo<T> *Nodo<T>::getSiguiente(void) const'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.cpp(33,15): error C2995: 'void Nodo<T>::setSiguiente(Nodo<T> *)': ya se ha definido la plantilla de función
+      C:\Users\XPC\Documents\GitHub\proyecto2\Nodo.h(38,10):
+      vea la declaración de 'Nodo<T>::setSiguiente'
+  
+  SistemaTicoPack.cpp
+C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7): error C2953: 'ListaEnlazada': ya se ha definido la plantilla de clase
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(23,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(24,32): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(25,27): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(26,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(27,35): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(28,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(51,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(52,33): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(53,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(54,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(55,36): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(56,30): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\SistemaTicoPack.h(11,39): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\SistemaTicoPack.h(22,40): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SistemaTicoPack.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\SistemaTicoPack.cpp(7,36): error C2512: 'ListaEnlazada': no hay disponible un constructor predeterminado adecuado
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\SistemaTicoPack.cpp(100,53): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+  SolicitudEnvio.cpp
+C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7): error C2953: 'ListaEnlazada': ya se ha definido la plantilla de clase
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(23,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(24,32): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(25,27): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(26,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(27,35): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(28,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(51,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(52,33): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(53,28): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(54,29): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(55,36): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+C:\Users\XPC\Documents\GitHub\proyecto2\CentroDistribucion.h(56,30): error C2955: 'ListaEnlazada': el uso de clase plantilla requiere una lista de argumentos de plantilla
+  (compilando archivo de origen "SolicitudEnvio.cpp")
+      C:\Users\XPC\Documents\GitHub\proyecto2\ListaEnlazada2.cpp(8,7):
+      vea la declaración de 'ListaEnlazada'
+  
+  Generando código...

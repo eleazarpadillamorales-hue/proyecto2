@@ -1,8 +1,13 @@
-#include "cliente.h"
+#pragma once
+#include "Cliente.h"
 
-class personaFisica: cliente { 
-	//facilito por herecia 
+class PersonaFisica : public Cliente {
+	//facilito por herecia
 public:
-	double getPorcentajeDescuento() override;
-	void toString() override;
+	PersonaFisica();
+	PersonaFisica(string identificacion, string nombre, string telefono, string correo);
+	~PersonaFisica();
+
+	double getPorcentajeDescuento() const override;
+	string toString() const override;
 };

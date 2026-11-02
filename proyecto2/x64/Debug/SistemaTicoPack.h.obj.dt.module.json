@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "proyecto2\\x64\\Debug\\SistemaTicoPack.obj",
+            "outputs": [
+                "proyecto2\\x64\\Debug\\SistemaTicoPack.h.obj.dt.module.json",
+                "proyecto2\\x64\\Debug\\SistemaTicoPack.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

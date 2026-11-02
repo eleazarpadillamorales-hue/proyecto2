@@ -1,40 +1,23 @@
 #include <iostream>
-#include <string>
-#include "cliente.h"
-#include "cliente.cpp"
-#include "colaborador.h"
-#include "colaborador.cpp"
-#include "empresa.h"
-#include "empresa.cpp"
-#include "personaFisica.h"
-#include "personaFisica.cpp"
-#include "registroBitacora.h"
-#include "registroBitacora.cpp"
-#include "nodoBitacora.h"
-#include "nodoBitacora.cpp"
-#include "celda.h"
-#include "celda.cpp"
-#include "matrizBodega.h"
-#include "matrizBodega.cpp"
-#include "bodega.h"
-#include "bodega.cpp"
-#include "paquete.h"
-#include "paquete.cpp"
-#include "SolicitudEnvio.h"
-#include "SolicitudEnvio.cpp"
-#include "Despacho.h"
-#include "Despacho.cpp"
-
-
-
-
-//no me gusta ver todas esas include vere como lo soluciono luego veo si lo paso todo a otra clase 
+#include "SistemaTicoPack.h"
 
 using namespace std;
-//bien basico para  ir anexando los archivos 
+
 int main() {
+    SistemaTicoPack sistema;
 
+    sistema.ejecutarMenuPrincipal();
+    //que puto desastre estoy haciendo 
 
-    std::cout << "Hola Mundo!" << std::endl;
+    //SU PUTA MADRE ESTO ESTA DURO 
+
+    //incremente el contador por cada intento fallido 50
+    //no entiendo porque madres imprime hola mundo ese era el antiguo archivo main no el nuevo
+    //NOP ESTO NO ES LO MIO
+    //en definitiva no es lo mio
+
+    //me cago en el hola mundo que puse al inicio 
+
     return 0;
 }
+

@@ -1,24 +1,29 @@
 #pragma once
-#include "cliente.h"
-class empresa : public cliente
-{
+
+#include <iostream>
+#include <string>
+#include "Cliente.h" 
+
+using namespace std;
+
+class Empresa : public Cliente { 
 private:
-	string activiaEconomica;
-	double porcentajeDescuento;
+    string actividadEconomica;    
+    double porcentajeDescuento;
+
 public:
-	//metodos contructores y destructores
-	empresa();
-	empresa(string activiaEconomica, double porcentajeDescuento);
-	~empresa();
-	//metodos gets y sets
-	string getActividadEconomica();
-	double getporcentajeDescuento();
+    //metodos contructores y destructores
+    Empresa();
+    Empresa(string identificacion, string nombre, string telefono, string correo, string actividadEconomica, double porcentajeDescuento);
+    ~Empresa();
 
-	void setActividadEconomica(string activiaEconomica);
-	void setporcentajeDescuento(double porcentajeDescuento);
-	//metodos adicionales 
-	void toString() override;
+    //metodos gets y sets 
+    string getActividadEconomica() const;
+    double getPorcentajeDescuento() const override; 
 
+    void setActividadEconomica(string actividadEconomica);
+    void setPorcentajeDescuento(double porcentajeDescuento);
 
+    //metodos adicionales 
+    string toString() const override; 
 };
-

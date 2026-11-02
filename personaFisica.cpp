@@ -1,10 +1,22 @@
-#include "personaFisica.h"
+#include "PersonaFisica.h"
 
-double personaFisica::getPorcentajeDescuento() { return 0; }
-void personaFisica::toString() { 
-	
-	cout << "El nombre del cliente es: " << getNombre() << endl;
-	cout << "El numero de identificacion es: " << getIdentificacion() << endl;
-	cout << "El telefono es: " << getTelefono() << endl;
-	cout << "El Correo es: " << getCorreo() << endl;
-	; }
+PersonaFisica::PersonaFisica() : Cliente() {}
+
+PersonaFisica::PersonaFisica(string identificacion, string nombre, string telefono, string correo)
+    : Cliente(identificacion, nombre, telefono, correo) {
+}
+
+PersonaFisica::~PersonaFisica() {}
+
+double PersonaFisica::getPorcentajeDescuento() const {
+    return 0.0;
+}
+
+string PersonaFisica::toString() const {
+    return "Persona Física - Nombre: " + getNombre() +
+        " | ID: " + getIdentificacion() +
+        " | Tel: " + getTelefono() +
+        " | Correo: " + getCorreo();
+}
+
+// Implementación previa adaptada para retornar string en lugar de void

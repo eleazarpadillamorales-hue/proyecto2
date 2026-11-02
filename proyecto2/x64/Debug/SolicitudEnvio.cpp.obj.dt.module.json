@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "proyecto2\\x64\\Debug\\SolicitudEnvio.obj",
+            "outputs": [
+                "proyecto2\\x64\\Debug\\SolicitudEnvio.cpp.obj.dt.module.json",
+                "proyecto2\\x64\\Debug\\SolicitudEnvio.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

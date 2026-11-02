@@ -1,18 +1,16 @@
 #pragma once
-#include "nodoBitacora.h"
-#include "listaBitacora.h"
-
+#include "NodoBitacora.h" 
 
 //esta seria la ultima muñeca rusa la mas grande o pequeña depende de como lo veas
 
-class	listaBitacora
-{
+class ListaBitacora { 
 private:
-	nodoBitacora* cabeza;
-public:
-listaBitacora();
-~listaBitacora();
-void agregar(registroBitacora*);
-void mostrarHistorial();
-	};
+    NodoBitacora* cabeza; 
 
+public:
+    ListaBitacora();
+    ~ListaBitacora();
+
+    void agregar(RegistroBitacora* nuevoRegistro); 
+    void mostrarHistorial() const;
+};

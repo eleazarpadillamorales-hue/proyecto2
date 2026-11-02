@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-// Declaraciones adelantadas para evitar dependencias circulares
+
 class Cliente;
 class Paquete;
 class Colaborador;
@@ -25,31 +25,27 @@ private:
     string estado;
 
 public:
-     double TARIFA_GENERAL;
-     double TARIFA_FRAGIL;
-     double TARIFA_TECNOLOGIA;
-     double TARIFA_DOCUMENTOS;
-
-
+    double TARIFA_GENERAL;
+    double TARIFA_FRAGIL;
+    double TARIFA_TECNOLOGIA;
+    double TARIFA_DOCUMENTOS;
 
     SolicitudEnvio();
     SolicitudEnvio(string codigo, Cliente* cliente, Paquete* paquete, Colaborador* colaborador, CentroDistribucion* centro, string destino, string fecha);
     ~SolicitudEnvio();
 
+    // Métodos Get 
+    string getCodigo() const;
+    Cliente* getCliente() const;
+    Paquete* getPaquete() const;
+    Colaborador* getColaboradorResponsable() const;
+    CentroDistribucion* getCentroOrigen() const;
+    string getDestino() const;
+    string getFechaSolicitud() const;
+    double getCostoEstimado() const;
+    string getEstado() const;
 
-    string getCodigo();
-    Cliente* getCliente();
-    Paquete* getPaquete();
-    Colaborador* getColaboradorResponsable();
-    CentroDistribucion* getCentroOrigen();
-    string getDestino();
-    string getFechaSolicitud();
-    double getCostoEstimado();
-    string getEstado();
-
- 
-
-
+    // Métodos Set
     void setCodigo(string codigo);
     void setCliente(Cliente* cliente);
     void setPaquete(Paquete* paquete);
@@ -61,5 +57,5 @@ public:
 
     double calcularCosto();
     void cambiarEstado(string nuevoEstado);
-    string toString();
+    string toString() const;
 };

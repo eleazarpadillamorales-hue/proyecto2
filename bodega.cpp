@@ -1,34 +1,53 @@
-#include "bodega.h"
-#include "MatrizBodega.h"
-//constructores
-bodega::bodega() { 
-	 codigo = "";
-	 nombre = "";
-	 tipoCodigo =0;
-	 tipoNombre = "";
-	matriz = nullptr;
-	; }
-bodega::bodega(string codigo, string nombre, int tipoCodigo, int fila, int columna) {
-	this->codigo = codigo;
-	this->nombre = nombre;
-	this->tipoCodigo = tipoCodigo;
-	if (tipoCodigo == 1) {
-		this->tipoNombre = "General";
-	}
-	else {
-		this->tipoNombre = "Especializada";
-	} 
-	this->matriz = new MatrizBodega(fila, columna, codigo);
+#include "Bodega.h"
+#include "matrizBodega.h"
+
+// Constructor por defecto
+Bodega::Bodega() {
+    codigo = "";
+    nombre = "";
+    tipoCodigo = 0;
+    tipoNombre = "";
+    matriz = nullptr;
 }
-bodega::~bodega() {delete matriz ; }
-//metodos get
-string bodega::getCodigo() { return codigo; }
-string bodega::getNombre() { return nombre; }
-int bodega::getTipoCodigo() { return tipoCodigo ; }
-string bodega::getTipoNombre() { return tipoNombre; }
-MatrizBodega* bodega::getMatriz() { return matriz; }
-//metodos set
-void bodega::setCodigo(string codigo) { this->codigo = codigo; }
-void bodega::setNombre(string nombre) { this->nombre = nombre;; }
-void bodega::setTipoCodigo(int tipocodigo) { this->tipoCodigo = tipoCodigo;; }
-void bodega::setTipoNombre(string nombre) { this->tipoNombre = tipoNombre;; }
+
+// Constructor con parámetros
+Bodega::Bodega(string codigo, string nombre, int tipoCodigo, int fila, int columna) {
+    this->codigo = codigo;
+    this->nombre = nombre;
+    this->tipoCodigo = tipoCodigo;
+    
+    if (tipoCodigo == 1) {
+        this->tipoNombre = "General";
+    } else {
+        this->tipoNombre = "Especializada";
+    }
+    
+    this->matriz = new MatrizBodega(fila, columna, codigo);
+}
+
+// Destructor
+Bodega::~Bodega() {
+    if (matriz != nullptr) {
+        delete matriz; 
+        matriz = nullptr;
+    }
+}
+
+string Bodega::getCodigo() const { return codigo; }
+string Bodega::getNombre() const { return nombre; }
+int Bodega::getTipoCodigo() const { return tipoCodigo; }
+string Bodega::getTipoNombre() const { return tipoNombre; }
+MatrizBodega* Bodega::getMatriz() { return matriz; }
+
+// Métodos set
+void Bodega::setCodigo(string codigo) { this->codigo = codigo; }
+void Bodega::setNombre(string nombre) { this->nombre = nombre; }
+void Bodega::setTipoCodigo(int tipoCodigo) { 
+    this->tipoCodigo = tipoCodigo;
+    if (tipoCodigo == 1) {
+        this->tipoNombre = "General";
+    } else {
+        this->tipoNombre = "Especializada";
+    }
+}
+void Bodega::setTipoNombre(string tipoNombre) { this->tipoNombre = tipoNombre; }

@@ -1,36 +1,34 @@
 #pragma once
-#include "celda.h"
-#include "paquete.h"
-class celda;
-class paquete;
+#include "Celda.h"
+#include "Paquete.h"
 
-
-class matrizBodega
+class MatrizBodega 
 {
 private:
-int filas;
-int columnas;
-celda * *celdas;
+    int filas;
+    int columnas;
+    Celda** celdas; 
+
 public:
-	//metodos constructores otra vez 
-	matrizBodega();
-  matrizBodega(int, int, string);
- ~matrizBodega();
- //los get
-  int getFilas();
-  int getColumnas();
-  int getTotalCeldas();
-  int getCeldasOcupadas();
-  int getCeldasLibres();
-  //los metodos de pedir cosas
-  double getPorcentajeOcupacion();
-  double getPorcentajeDisponible();
-  //los que asignan antes eran set ahora ?
-  bool asignarPaqueteEnCelda(int, int, paquete*);
-  bool liberarCelda(int, int);
-  celda * getCelda(int, int);
-  void mostrarGrafico();
+    //metodos constructores otra vez 
+    MatrizBodega();
+    MatrizBodega(int filas, int columnas, string codigoBodega);
+    ~MatrizBodega();
 
+    //los get 
+    int getFilas() const;
+    int getColumnas() const;
+    int getTotalCeldas() const;
+    int getCeldasOcupadas() const;
+    int getCeldasLibres() const;
 
+    //los metodos de pedir cosas (
+    double getPorcentajeOcupacion() const;
+    double getPorcentajeDisponible() const;
+
+    //los que asignan 
+    bool asignarPaqueteEnCelda(int fila, int columna, Paquete* p);
+    bool liberarCelda(int fila, int columna);
+    Celda* getCelda(int fila, int columna);
+    void mostrarGrafico() const;
 };
-
